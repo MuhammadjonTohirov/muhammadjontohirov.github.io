@@ -56,11 +56,8 @@
             width: 64px;
             height: 64px;
             border-radius: 14px;
-            background: linear-gradient(135deg, #007AFF 0%, #5AC8FA 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2em;
+            display: block;
+            object-fit: cover;
             margin-bottom: 16px;
         }
         .app-card h2 {
@@ -107,13 +104,13 @@
     <div class="apps">
         <div class="app-grid">
             <a class="app-card" href="apps/bookletpdf/index.html">
-                <div class="app-icon">📖</div>
+                <img class="app-icon" src="apps/bookletpdf/logo.png" alt="BookletPDF logo">
                 <h2>BookletPDF</h2>
                 <p>Convert any PDF into a printable booklet. Fold, staple, and read.</p>
                 <div class="platforms">iOS · macOS</div>
             </a>
             <a class="app-card" href="apps/alifsafari/index.html">
-                <div class="app-icon" style="background: linear-gradient(135deg, #F5A623 0%, #F8C471 100%);">✍️</div>
+                <img class="app-icon" src="apps/alifsafari/logo.jpg" alt="Alif Safari logo">
                 <h2>Alif Safari</h2>
                 <p>Learn the Arabic alphabet through tracing, pronunciation, and quizzes.</p>
                 <div class="platforms">iOS · macOS</div>
